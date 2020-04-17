@@ -52,7 +52,8 @@ function App() {
           </AppBar>
         </div>
         <div className="app-item-header">
-          <video src="/videos/rjl-video.webm" controls></video>
+          test
+          <video src="/videos/rjl.webm" autoPlay muted loop></video>
         </div>
         <div className="app-item-promo-one">promo one</div>
         <div className="app-item-promo-two">promo two</div>
