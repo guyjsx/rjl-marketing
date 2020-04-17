@@ -1,0 +1,30 @@
+.app-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'nav nav nav nav'
+    'header header header header'
+    'promo-one promo-one promo-two promo-two'
+    'footer footer footer footer';
+
+  .app-item-nav {
+    grid-area: nav;
+  }
+
+  .app-item-header {
+    grid-area: header;
+  }
+
+  .app-item-promo-one {
+    grid-area: promo-one;
+  }
+
+  .app-item-promo-two {
+    grid-area: promo-two;
+  }
+
+  .app-item-footer {
+    grid-area: footer;
+  }
+}
